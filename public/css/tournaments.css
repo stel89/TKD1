@@ -1,0 +1,40 @@
+.organization-block{
+    display:table;
+    width:100%;
+    height:30px;
+    margin-bottom:5px;
+    border:1px solid #ccc !important;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    clear:both;
+    font-size:14px;
+}
+.organization-block > *{
+    display:table-cell;
+    float:left;
+    height:100%;
+}
+.organization-block-1{
+    font-size:15px;
+    padding-right:5px;
+    text-align: right;
+    width:25px;
+    line-height:30px;
+}
+.organization-block-2{
+    line-height:30px;
+    padding: 0 4px;
+    color: #000;
+    width:calc(100% - 55px);
+    border-left:1px solid #ccc;
+}
+.organization-block-2 a{
+    color: #000;
+}
+.organization-block-3{
+    font-size: 18px;
+    width:30px;
+    text-align:center;
+    font-weight:bold;
+}
